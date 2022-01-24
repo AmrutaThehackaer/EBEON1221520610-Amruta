@@ -1,0 +1,17 @@
+6.Find the output and write explanation? 
+Ans:class Test 
+{
+	public static void main(String[] args) 
+	{  
+		byte b = 127;
+		++b;
+		b++;
+		System.out.println("Value of variable b:"+b);
+	}
+}
+
+output:
+Value of variable b:-127
+  Type casting a larger variable into a smaller variable results in modulo of larger variable by range of smaller variable.
+  The range() method in the IntStream class in Java is used to return a sequential ordered IntStream from startInclusive to
+  endExclusive by an incremental step of 1. This includes the startInclusive as well minmnum number.

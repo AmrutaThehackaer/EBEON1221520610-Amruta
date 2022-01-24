@@ -1,0 +1,16 @@
+5.Find the output and write explanation? 
+Ans:class Main 
+{
+	public static void main(String[] args) 
+	{
+		int t;
+		System.out.println("Value of variable t:"+t);
+	}
+}
+
+output:
+Error-  Because compile time error local variable do not declare.
+ Variables created inside a function definition are local,
+ you can’t access a local variable from outside its home function. 
+ That means you are free to have multiple variables with the same 
+ name as long as they are not in the same function.
